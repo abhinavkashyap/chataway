@@ -6,10 +6,18 @@ authors = ["abhinavkashyap <abhinav@comp.nus.edu.sg>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.9.7 || >3.9.7,<3.13"
 pandas = "^2.2.2"
 rich = "^13.7.1"
 scikit-learn = "^1.5.0"
+streamlit = "^1.35.0"
+langchain-community = "^0.2.4"
+langchain-chroma = "^0.1.1"
+streamlit-card = "^1.0.2"
+langchain-openai = "^0.1.8"
+python-dotenv = "^1.0.1"
+sentence-transformers = "^3.0.1"
+langchain-huggingface = "^0.0.3"
 
 
 [tool.poetry.group.dev.dependencies]
